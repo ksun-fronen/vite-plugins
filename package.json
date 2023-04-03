@@ -1,7 +1,7 @@
 {
   "name": "@szjyp226/vite-plugins",
-  "version": "1.0.1",
-  "description": "vite自定义插件合集",
+  "version": "1.0.2",
+  "description": "vite自定义插件合集,更新Readme.md",
   "scripts": {
     "upload": "Hello World"
   },

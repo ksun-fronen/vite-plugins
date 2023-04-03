@@ -1,0 +1,31 @@
+{
+  "name": "@szjyp226/vite-plugins",
+  "version": "1.0.1",
+  "description": "vite自定义插件合集",
+  "scripts": {
+    "upload": "Hello World"
+  },
+  "repository": "https://github.com/szjyp226/vite-plugins",
+  "author": "Szjyp226",
+  "license": "MIT",
+  "keywords": [
+    "vite",
+    "plugins"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-virtual": "^3.0.1"
+  },
+  "exports": {
+    "./multi-entry-all": {
+      "import": "./multi-entry-all/index.js",
+      "require": "./multi-entry-all/index.js"
+    },
+    "./replace-import-module": {
+      "import": "./replace-import-module/index.js",
+      "require": "./replace-import-module/index.js"
+    }
+  }
+}

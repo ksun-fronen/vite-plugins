@@ -5,7 +5,10 @@
   "scripts": {
     "upload": "Hello World"
   },
-  "repository": "https://github.com/szjyp226/vite-plugins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szjyp226/vite-plugins"
+  },
   "author": "Szjyp226",
   "license": "MIT",
   "keywords": [
